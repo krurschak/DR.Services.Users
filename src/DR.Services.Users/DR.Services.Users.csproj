@@ -4,4 +4,13 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="DR.Components.Projects" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\git_modules\DR.Components.Users\src\DR.Components.Users\DR.Components.Users.csproj" />
+    <ProjectReference Include="..\..\git_modules\DR.Frameworks.Users\src\DR.Frameworks.Users\DR.Frameworks.Users.csproj" />
+  </ItemGroup>
+
 </Project>
