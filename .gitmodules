@@ -1,0 +1,3 @@
+[submodule "git_modules/DR.Components.Users"]
+	path = git_modules/DR.Components.Users
+	url = git@github.com:krurschak/DR.Components.Users.git
