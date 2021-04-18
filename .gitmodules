@@ -1,3 +1,6 @@
 [submodule "git_modules/DR.Components.Users"]
 	path = git_modules/DR.Components.Users
 	url = git@github.com:krurschak/DR.Components.Users.git
+[submodule "git_modules/DR.Frameworks.Users"]
+	path = git_modules/DR.Frameworks.Users
+	url = git@github.com:krurschak/DR.Frameworks.Users.git
