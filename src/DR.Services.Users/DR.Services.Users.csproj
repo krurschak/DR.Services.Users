@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="DR.Components.Projects" Version="1.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.3" />
   </ItemGroup>
 
   <ItemGroup>
