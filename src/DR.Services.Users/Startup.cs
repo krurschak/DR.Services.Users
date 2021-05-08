@@ -47,7 +47,7 @@ namespace DR.Services.Users
                 cfg.AddMongoRepository<User>("Users");
             });
 
-            // Register MassTransit and Subscriptions if RabbitMq Connection existing (read only if not)
+            // Register MassTransit and Consumers if RabbitMq Connection exists (read only if not)
             var rabbitMq = Configuration.GetConnectionString("RabbitMq");
             if (string.IsNullOrEmpty(rabbitMq))
             {
